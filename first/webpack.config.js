@@ -7,6 +7,7 @@ module.exports = (env, argv) => {
       'pages/help/index':  './src/pages/help/index.jsx',
       'pages/index/index':  './src/pages/index/index.jsx',
       'pages/simple/index':  './src/pages/simple/index.jsx',
+      'pages/form/index':  './src/pages/form/index.jsx',
     },
     output: {
       path: path.resolve('build'),

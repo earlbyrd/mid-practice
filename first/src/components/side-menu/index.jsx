@@ -10,6 +10,7 @@ const links = {
   index: '/demos/index.html',
   simple: '/demos/simple.html',
   help: '/demos/help.html',
+  form: '/demos/form.html',
 };
 
 class SideMenu extends React.Component {
@@ -64,6 +65,12 @@ class SideMenu extends React.Component {
             className="left-nav-item"
             icon="attachment"
           ><a href={links.help}>help</a>
+          </Item>
+          <Item
+            key="form"
+            className="left-nav-item"
+            icon="attachment"
+          ><a href={links.form}>form</a>
           </Item>
         </Nav>
       </div>
