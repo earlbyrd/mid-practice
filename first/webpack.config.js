@@ -56,7 +56,10 @@ module.exports = (env, argv) => {
           ],
         },
       ],
-    }
+    },
+    optimization: {
+      minimize: false
+    },
   }
 
   if (argv.mode === 'development') {
