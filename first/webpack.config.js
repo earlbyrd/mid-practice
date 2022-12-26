@@ -24,10 +24,10 @@ module.exports = (env, argv) => {
     resolve: {
       extensions: ['.js', '.jsx'],
       // TODO 演示 路径 alias
-      // alias: {
-      //   components: path.join(__dirname, 'src/components'),
-      //   utils: path.join(__dirname, 'src/utils'),
-      // },
+      alias: {
+        components: path.join(__dirname, 'src/components'),
+        utils: path.join(__dirname, 'src/utils'),
+      },
     },
     module: {
       rules: [
