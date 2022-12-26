@@ -49,7 +49,7 @@ module.exports = (env, argv) => {
             {
               loader: '@alifd/next-theme-loader',
               options: {
-                theme: '@alifd/theme-2',
+                theme: '@alifd/theme-1',
                 // TODO
               },
             }

@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@alifd/next": "^1.20.28",
+    "@alifd/theme-1": "^0.4.2",
     "@alifd/theme-2": "^0.2.2",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
